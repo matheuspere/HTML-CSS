@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, Sans-serif
+    height: 100%;
+
+}   
+
+body{
+    background-image: linear-gradient(to rigth, #8C3D35, #592C28);
+}
+p   {
+    text-align: justify;
+
+}

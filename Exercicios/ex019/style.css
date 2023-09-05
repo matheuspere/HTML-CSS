@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(140, 247, 140);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(10, 148, 10);
+}
+h1#principal {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: aliceblue
+    
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Sigmar&family=Work+Sans:wght@300;700;900&display=swap');
+
+}
+
+h2{
+    color: rgb(85, 148, 85);
+
+}
