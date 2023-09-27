@@ -2,11 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@font-face {
+    font-family:cordel ;
+    src: url('fontes/cordelina.otf');
+}
 
 :root{
     --font1: verdana, geneva, tahoma, sans-serif;
     --font2: 'Passion One', cursive;
     --font3: 'Sriracha', cursive;
+    
 }
 
 
@@ -19,6 +24,7 @@ html, body{
     background-color: darkgray;
     min-height: 100vh;
     font-family: var(--font1);
+   
 }
 
 header{
