@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-1-hex { color: #190626; }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-2-hex { color: #250A40; }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-3-hex { color: #3703A6; }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-4-hex { color: #2E038C; }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-5-hex { color: #027333; }
+
+/* Color Theme Swatches in RGBA */
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-1-rgba { color: rgba(25, 6, 38, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-2-rgba { color: rgba(36, 10, 63, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-3-rgba { color: rgba(54, 3, 165, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-4-rgba { color: rgba(46, 2, 140, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-5-rgba { color: rgba(2, 114, 51, 1); }
+
+/* Color Theme Swatches in HSLA */
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-1-hsla { color: hsla(275, 72, 8, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-2-hsla { color: hsla(270, 72, 14, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-3-hsla { color: hsla(258, 96, 33, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-4-hsla { color: hsla(258, 96, 28, 1); }
+.portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-5-hsla { color: hsla(146, 96, 22, 1); }
+
+body, html {
+    background-color: #027333 ;
+    color: white;
+}
