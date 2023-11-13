@@ -21,7 +21,81 @@
 .portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-4-hsla { color: hsla(258, 96, 28, 1); }
 .portrait-of-a-woman-in-halloween-theme-makeup-in-dark-purple-background-5-hsla { color: hsla(146, 96, 22, 1); }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 body, html {
     background-color: #027333 ;
     color: white;
+}
+
+header {
+    background-color: #250A40;
+
+}
+
+header h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+i#burguer {
+    background-color: #12051b;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+
+    background-color: #2E038C;
+    color: white;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #190626;
+    color: white;
+    border-top: 2px solid white;
+}
+
+menu ul > li > a:hover {
+    background-color: #2E038C;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+article h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }

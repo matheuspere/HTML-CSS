@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    
     <header>
         <h1>Joker</h1>
-        <menu>
+        <span class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
             <ul>
-                <li><a href="https://pt.wikipedia.org/wiki/Joker_(filme)">Filme</a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Joker_(DC_Comics)">Quadrinho</a></li>
-                <li><a href="https://ludopedia.com.br/jogo/dc-comics-deck-building-game-rivals-batman-vs-the-joker">Game</a></li>
-                <li><a href="https://pt.quora.com/Quais-s%C3%A3o-as-curiosidades-sobre-o-filme-do-Coringa-que-as-pessoas-n%C3%A3o-conhecem">Curiosidades</a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Bob_Kane">Criador</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Joker_(filme)" target="_blank">Filme</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Joker_(DC_Comics)" target="_blank">Quadrinho</a></li>
+                <li><a href="https://ludopedia.com.br/jogo/dc-comics-deck-building-game-rivals-batman-vs-the-joker" target="_blank">Game</a></li>
+                <li><a href="https://pt.quora.com/Quais-s%C3%A3o-as-curiosidades-sobre-o-filme-do-Coringa-que-as-pessoas-n%C3%A3o-conhecem" target="_blank">Curiosidades</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Bob_Kane" target="_blank">Criador</a></li>
             </ul>
         </menu>
     </header>
@@ -27,6 +32,15 @@
             <p>O personagem não tem habilidades sobre-humanas, mas usa a sua inteligência para desenvolver misturas tóxicas e/ou letais, bem como armamentos temáticos, incluindo cartas de jogo com pontas cortantes, campainhas de brinquedo mortais e flores de lapela que projetam ácido. Apesar de por vezes trabalhar com outros super-vilões, como o Pinguim e o Duas-Caras, e em grupos como Gangue da Injustiça e Liga da Injustiça, tais relações acabaram muitas vezes por entrar em colapso devido ao constante desejo do Joker em procurar o caos desenfreado. A década de 1990 introduziu um par romântico ao personagem na forma da sua ex-psiquiatra do Asilo Arkham, Arlequina, que se torna inclusive sua parceira no crime. Apesar da sua grande obsessão ser o Batman, o Joker já foi adversário de outros heróis como o Superman e a Mulher Maravilha.</p>
         </article>
     </main>
-    
+    <script>
+        function clickMenu {
+           if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+           } else {
+                itens.style.display = 'block'
+           }
+
+        }
+    </script>
 </body>
 </html>
