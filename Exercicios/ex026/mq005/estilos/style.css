@@ -29,6 +29,7 @@
 
 body, html {
     background-color: #027333 ;
+    background-image: url(../imagens/a06db56432d86bf8a6a1d59c9003924f.jpg);
     color: white;
 }
 
@@ -38,6 +39,7 @@ header {
 }
 
 header h1 {
+    background-image: url(../imagens/Joker-Logo.png);
     padding: 10px;
     text-align: center;
 }
@@ -76,11 +78,12 @@ menu ul > li > a {
 }
 
 menu ul > li > a:hover {
-    background-color: #2E038C;
+    background-color: #027333;
 }
 
 main {
     width: 90vw;
+    
     background-color: white;
     margin: auto;
     margin-top: 10px;
